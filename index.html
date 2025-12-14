@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Fashion's</title>
+</head>
+<!--TAILWIND LINK-->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!--CDN ICON LINK-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<body class="bg-gray-200 w-full overflow-x-hidden">
+
+
+    <!--FIRST HEADER-->
+    <div class="bg-black flex justify-around  text-white h-[35px]  w-full top-0  px-2 py-2 lg:h-[40px]">
+        <p class="hidden sm:text-sm sm:block lg:text-sm xl:text-lg">Summer Sale For All Swim Suits And Free Express
+            Delivery-OFF
+            50%! <a href="#" class="border-white border-b-[0.95px] w-auto">ShopNow</a></p>
+        <p class="text-xs sm:hidden md:hidden lg:hidden 2xl:hidden">Summer Sale! Free Express Delivery -
+            50% Off</p>
+        <p class="text-sm xl:text-lg">English ˅</p>
+    </div>
+
+    <!--SECOND HEADER-->
+    <div
+        class="sticky top-0 z-50 py-2 px-3 bg-white flex justify-between items-center gap-5 border-b-[1px] border-black w-full h-fit  md:py-2 lg:px-7 lg:py-3">
+
+        <!--LOGO-->
+        <h1 class="text-md  items-center sm:text-lg font-bold  sm:flex sm:justify-between sm:gap-5 lg:text-xl">
+            <a href="#">Exclusive</a>
+        </h1>
+
+        <!--INPUT SEARCH-->
+        <div class="flex justify-between gap-8">
+            <label class="relative" for="search">
+                <input
+                    class="hidden md:bg-gray-300 md:focus:outline-none  md:flex md:px-4 md:py-1  md:rounded-xl md:w-[45vw]"
+                    type="search" id="form" placeholder="what are you looking for?">
+                <input
+                    class="hidden sm:flex sm:bg-gray-300 sm:focus:outline-none sm:px-3 sm:rounded-lg sm:text-sm sm:w-[35vw] sm:py-1 md:hidden"
+                    type="search" id="form" placeholder="Looking for something">
+
+                <!-- Icon -->
+                <a href="#"><span
+                        class="hidden sm:flex sm:absolute sm:right-3  sm:top-1/2 sm:-translate-y-1/2 text-black cursor-pointer">
+                        <i class="bi bi-search"></i>
+                    </span></a>
+            </label>
+
+            <!--CART AND FAVOURITE ICON-->
+            <div class="hidden cursor-pointer sm:flex sm:gap-8 md:text-2xl">
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-cart3"></i>
+            </div>
+
+
+            <!--MENU BUTTON-->
+            <div class="flex justify-between text-2xl cursor-pointer font-bold text-blacktext-white  px-2 rounded-lg">
+                <i id="menuBtn" class="bi bi-list-task"></i>
+
+
+
+
+                <!--MENU TEXT-->
+                <ul id="menu"
+                    class="hidden absolute  top-[3.1rem] text-black overflow-y-scroll max-h-screen shadow-md z-50 animate-slideRight w-[65%] flex-col right-0 space-y-8 bg-gray-50 p-8  h-fit md:text-sm lg:space-y-4  lg:top-[3.55rem] md:w-[20%] md:right-8 lg:rounded-tr-4xl">
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">About</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Store</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">SignUp</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Women's Fashion</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="./Men's Fashion.html" class="block w-full">Men's Fashion</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Electronics</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="./index.html" class="block w-full">Phones & Gadgets</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Medicine</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Sports & Outdoors</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Baby's & Toys</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Groceries & Pets</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Health & Beauty</a>
+                    </li>
+
+                    <li
+                        class="text-sm font-semibold sm:text-base  lg:text-md lg:hover:border lg:hover:border-black lg:hover:w-full lg:hover:rounded-lg lg:hover:px-2">
+                        <a href="#" class="block w-full">Home & Lifestyles</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!--PHONE & TABLETS LINK-->
+
+    <!--PHONE & TABLETS LINK-->
+    <h6 class="px-4 py-2 text-sm md:text-md 2xl:text-xl"><a href="./index.html">Home<span class="text-xl font-bold">
+                ›</span></a><a class="px-3 text-sm" href="#">Fashion
+        </a> <span class="text-xl font-bold">
+            ›</span></a><span class="px-3 text-gray-500" href="#">Men's Fashion
+        </span></h6>
+
+
+    <!--CLOTHES CATEGORIES-->
+    <div class="h-fit  bg-white w-full md:w-[97%] md:m-5 md:rounded-md">
+
+        <!--PICTURES OF LIMITED PHONE-->
+        <div class="relative w-full h-fit cursor-pointer">
+
+            <div class="slider h-fit m-1 flex overflow-x-auto  snap-x snap-mandatory space-x-1 p-2">
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-t-lg" src="./boot.png" alt="boot"></a>
+                    <p class="m-2 text-sm text-center">Boots</p>
+                </div>
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./menc(1).png" alt="men shirt"> </a>
+                    <p class="m-2 text-sm md:text-md text-center">Clothing</p>
+                </div>
+
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./Men bags.png" alt="men bags"></a>
+                    <p class="m-2 text-sm md:text-md text-center">Bags</p>
+                </div>
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./wristwatches.png" alt="watch"> </a>
+                    <p class="m-2 text-sm md:text-md text-center">Watches</p>
+                </div>
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./underwears.png" alt="underwears"> </a>
+                    <p class="m-2 text-sm md:text-md text-center">Underwears</p>
+                </div>
+
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./Thumbnails_traditional.png" alt="Tradtional Men wear"> </a>
+                    <p class="m-2 text-sm md:text-md text-center">Trads Wear</p>
+                </div>
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./MensFashion_accessories.png" alt="men accessories"> </a>
+                    <p class="m-2 text-sm md:text-md text-center">Accessories</p>
+                </div>
+
+                <div
+                    class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-2xl" src="./Mens_Shoes.png" alt="Clothing"> </a>
+                    <p class="m-2 text-sm md:text-md text-center">Shoes</p>
+                </div>
+
+            </div>
+
+
+            <!--BACK-->
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+                &lt;
+            </button>
+
+
+            <!--NEXT-->
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+                &gt;
+            </button>
+        </div>
+    </div>
+
+
+    <!--LIMITED STOCK DEALS FOR MOBILE-->
+    <div class="h-auto w-full bg-white md:hidden ">
+        <div class="flex justify-between bg-black text-white h-[35px] w-full items-center gap-5 px-4">
+            <p class="text-sm">Limited Stock Deals</p>
+            <p class="text-xs">Sell All</p>
+        </div>
+
+        <!--LIMITED STOCK PICUTURE-->
+        <div class="grid grid-cols-2 gap-3 m-2">
+            <div class="px-2 py-2 h-fit bg-gray-100 rounded-lg">
+                <a href="#"><img class="object-contain h-fit w-fit" src="sneaker_3.png" alt="Sneaker"></a>
+                <p class="text-xs font-semibold">GALUIN Fashionable White Shoes...</p>
+                <p class="text-sm font-bold text-orange-500">₦ 13,320</p>
+            </div>
+
+            <div class="px-2 py-2 h-fit bg-gray-100 rounded-lg">
+                <a href="#"><img class="object-contain h-fit w-fit" src="./shirt.jpg" alt="long T-shirt"></a>
+                <p class="text-xs font-semibold">Danami Heneley Long Sleeve T S...</p>
+                <p class="text-sm font-bold text-orange-500">₦ 9,295</p>
+            </div>
+
+            <div class="px-2 py-2 h-fit bg-gray-100 rounded-lg">
+                <a href="#"><img class="object-contain h-fit w-fit" src="./hoddie(1).jpg" alt="hoddie"></a>
+                <p class="text-xs font-semibold">Danami Throne of Grace Printed...</p>
+                <p class="text-sm font-bold text-orange-500">₦ 14,880 - ₦ 17,500</p>
+            </div>
+
+            <div class="px-2 py-2 h-fit bg-gray-100 rounded-lg">
+                <a href="#"><img class="object-contain h-fit w-fit" src="./shirt(1).jpg" alt="short T-Shirt"></a>
+                <p class="text-xs font-semibold">Plain Unisex T-shirts Com...</p>
+                <p class="text-sm font-bold text-orange-500">₦ 5,950</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--ALL ADS-->
+    <div class="bg-gray-100 w-full h-fit md:hidden">
+        <div class="grid grid-cols-3 gap-2 m-2 items-center">
+            <!--CATEGORIES-->
+
+            <!--FIRST ADS-->
+            <div class="bg-gray-100  py-4 rounded-lg">
+                <a href="#"><img class="object-contain w-fit h-[10%] rounded-lg" src="./ad(2).jpg" alt="shoes"></a>
+                <p class="text-center text-sm text-orange-500">Below ₦ 10,000</p>
+            </div>
+
+            <!--SECOND ADS-->
+            <div class="bg-gray-100  py-4 rounded-lg">
+                <a href="#"><img class="object-contain w-fit h-[10%] rounded-lg" src="./ad(1).jpg" alt="CLOTHES"></a>
+                <p class="text-center text-sm text-orange-500">Below ₦ 15,000</p>
+            </div>
+
+            <!--THIRD ADS-->
+            <div class="bg-gray-100  py-4 rounded-lg">
+                <a href="#"><img class="object-contain w-fit h-[10%] rounded-lg" src="./ad(3).jpg" alt="Bags"></a>
+                <p class="text-center text-sm text-orange-500">Below ₦ 5,000</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!--TOP DEAL PAGES-->
+    <div class="h-fit  bg-white w-full md:w-[97%] md:m-5">
+
+        <!--TOP DEAL FIRST HEADER-->
+        <div
+            class="bg-black text-white flex justify-between px-4 items-center h-[35px] w-full md:rounded-t-sm  md:h-[50px]">
+            <h2 class="font-semibold text-sm md:textlg xl:text-xl">Top Deals</h2>
+            <a class="font-semibold text-sm md:text-md xl:text-lg" href="">See All <span
+                    class="text-lg xl:text-xl">»</span></a>
+
+        </div>
+
+        <!--TOP DEALS HEADER-->
+        <div class="slider h-fit m-1 flex overflow-x-auto  snap-x snap-mandatory space-x-1 p-2 md:gap-2 lg:gap-2 ">
+
+            <!--TOP DEALS IMAGE-->
+            <div
+                class="bg-gray-25 h-fit w-[170px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm lg:w-[190px] ">
+                <a href="#"><img class="rounded-t-lg h-40 w-full object-contain " src="./mensne(1).jpg"
+                        alt="Men sneaker"></a>
+                <p class="m-2 text-xs md:font-semibold">Strollen Casual Hybrid Sn...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 12,250</p>
+            </div>
+
+
+            <div
+                class="bg-gray-25 h-fit w-[170px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm lg:w-[190px] ">
+                <a href="#"><img class="rounded-t-lg h-40 w-full object-contain " src="./mens(1).jpg"
+                        alt="Men shirt"></a>
+                <p class="m-2 text-xs md:font-semibold">4-In-1 Plain Unisex T-shir...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 12,600</p>
+            </div>
+
+            <div
+                class="bg-gray-25 h-fit w-[170px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm lg:w-[190px] ">
+                <a href="#"><img class="rounded-t-lg h-40 w-full object-contain " src="./mens(2).jpg"
+                        alt="Men Long Sleeve"></a>
+                <p class="m-2 text-xs font-semibold">Danami Long Sleeve Grey...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 9,265</p>
+            </div>
+
+<div
+                class="bg-gray-25 h-fit w-[170px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm lg:w-[190px] ">
+                <a href="#"><img class="rounded-t-lg h-40 w-full object-contain " src="./mens(3).jpg"
+                        alt="Men huddi"></a>
+                <p class="m-2 text-xs font-semibold">Danami Throne of Grace...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 14,890</p>
+            </div>
+
+<div
+                class="bg-gray-25 h-fit w-[170px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm lg:w-[190px] ">
+                <a href="#"><img class="rounded-t-lg h-40 w-full object-contain " src="./mens(4).jpg"
+                        alt="Men huddi"></a>
+                <p class="m-2 text-xs font-semibold">Danami Grace Fortified H...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 11,900 - ₦ 10,300</p>
+            </div>
+
+            
+<div
+                class="bg-gray-25 h-fit w-[170px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm lg:w-[190px] ">
+                <a href="#"><img class="rounded-t-lg h-40 w-full object-contain " src="./mens(5).jpg"
+                        alt="Men huddi"></a>
+                <p class="m-2 text-xs font-semibold">Danami 4 In One Button...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 34,550 - ₦ 36,410</p>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <!--CATEGORIES-->
+    <div
+        class="hidden md:flex md:flex-row md:h-fit  md:bg-white md:w-[97%] md:m-5 md:py-1 px-2 md:gap-2 md:rounded-lg ">
+        <!--PICTURE-->
+       <div class="h-fit w-full">
+        <img class="h-80 w-full" src="ChatGPT Image Dec 14, 2025, 03_04_38 PM.png" alt="">
+       </div>
+    </div>
+
+
+    <!--FASHION CATEGORIES FOR MOBILE ONLY-->
+    <!--FASHION CATEGORIES PAGES-->
+    <div class="h-auto  bg-white w-full mt-2  md:hidden">
+
+        <!--CATEGORIES FIRST HEADER-->
+        <div class="bg-black text-white h-[35px] w-full">
+            <h2 class="font-semibold text-sm text-center py-2">Fashion Categories</h2>
+        </div>
+
+        <!--TOP DEALS HEADER-->
+        <div class="h-fit w-fit m-5 grid grid-cols-4 grid-row-3 gap-5 py-4">
+            <!--TOP DEALS IMAGE-->
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./bags(2).png"
+                        alt="Women's Bag"></a>
+                <p class="text-xs text-center">Women's Bags</p>
+            </div>
+
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./shoe(1).png"
+                        alt="Women's Shoes"></a>
+                <p class="text-xs text-center">Women's Shoes</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./offices(1).png"
+                        alt="Office Women's Shoes"></a>
+                <p class="text-xs text-center">Office Runaway</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./shirt(2).png"
+                        alt="Women's Shirt"></a>
+                <p class="text-xs text-center">Relaxed Living</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./sidebag(1).png"
+                        alt="men's Sidebag"></a>
+                <p class="text-xs text-center">Men's Bags</p>
+            </div>
+
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./shirt(2).png"
+                        alt="Street Style"></a>
+                <p class="text-xs text-center">Street Style</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./street-removebg-preview.png"
+                        alt="House of Brand"></a>
+                <p class="text-xs text-center">House of Brand</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./watchm-removebg-preview.png"
+                        alt="Watches Collection"></a>
+                <p class="text-xs text-center">Watches Collection</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./kid-removebg-preview.png"
+                        alt="Kid's Collection"></a>
+                <p class="text-xs text-center">Kid's Collection</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./men_1_-removebg-preview.png"
+                        alt="Men's Collection"></a>
+                <p class="text-xs text-center">Men's Collection</p>
+            </div>
+
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./women_1.png"
+                        alt="Women's Collection"></a>
+                <p class="text-xs text-center">Women's Collection</p>
+            </div>
+
+            <div class="w-fit h-auto h-fit bg-white rounded-lg">
+                <a href="#"><img class="bg-gray-200 rounded-lg object-contain" src="./sneaker_4.png"
+                        alt="Sneakers Collection"></a>
+                <p class="text-xs text-center">Sneakers Collection</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <!--BEST OF BAGS PAGES FOR ONLY MOBILE-->
+    <!--BEST BAGS PAGE-->
+    <div class="h-fit  bg-white w-full md:hidden">
+
+        <!--BEST BAGS FIRST HEADER-->
+        <div class="bg-black text-white flex justify-between px-4 items-center h-[35px] w-full">
+            <h2 class="font-semibold text-sm">Best Of Bags</h2>
+
+            <a class="font-semibold text-sm" href="#">See All <span class="text-lg xl:text-xl">»</span></a>
+        </div>
+
+
+        <!--PICTURES OF BEST BAGS-->
+        <div class="slider h-fit m-1 flex overflow-x-auto  snap-x snap-mandatory space-x-1 p-2">
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_3_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 4 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 9,601</p>
+            </div>
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_4_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">4 In Women Bag Crossbo...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 10,550</p>
+            </div>
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_5_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 4 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 10,175</p>
+            </div>
+
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_6_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 4 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 8,640</p>
+            </div>
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_7_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 3 In 1 Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 13,280</p>
+            </div>
+
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_8_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 3 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 13,280</p>
+            </div>
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_9_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Women Bag Crossbody Ba...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 13,325</p>
+            </div>
+
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_10_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 4 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 10,995</p>
+            </div>
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_11_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 3 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 11,115</p>
+            </div>
+
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_12_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 4 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 10,660</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--BEST OF CATEGORIES PAGES FOR ONLY MOBILE-->
+    <!--BEST OF CATEGORIES PAGE-->
+    <div class="h-fit  bg-white w-full mb-2 md:hidden">
+
+        <!--BEST OF CATEGORIES FIRST HEADER-->
+        <div class="bg-black text-white flex justify-between px-4 items-center h-[35px] w-full">
+            <h2 class="font-semibold text-sm">Best Of Categories</h2>
+
+            <a class="font-semibold text-sm" href="#">See All <span class="text-lg xl:text-xl">»</span></a>
+        </div>
+
+
+        <!--PICTURES OF BEST OF CATEGORIES-->
+        <div class="slider h-fit m-1 flex overflow-x-auto  snap-x snap-mandatory space-x-1 p-2">
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_12_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">Mateamoda 4 PCS Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 10,660</p>
+            </div>
+           
+           
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./jewllery.jpg" alt="necklace"></a>
+                <p class="m-2 text-sm">N002 Ladies 2 in 1 Vintage...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 1,780</p>
+            </div>
+
+            <div class="bg-gray-100 h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./bag_4_-removebg-preview.png" alt="Hand Bag"></a>
+                <p class="m-2 text-sm">4 In Women Bag Crossbo...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 10,550</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--OFFICIAL STORE PAGES-->
+    <div class="bg-white h-auto w-full mb-4 md:m-5 md:w-[97%] rounded-md">
+
+        <div class="bg-black w-full h-[35px] flex items-center justify-center py-3">
+            <h3 class="text-white text-center">Official Stores</h3>
+        </div>
+        <div class="grid grid-cols-4 py-2  px-4 md:gap-2 md:grid-cols-5 xl:grid-cols-6">
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./danami.png" alt="Danami"></a>
+                <p class="m-2 text-sm text-center">Danami</p>
+            </div>
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./converse.png" alt="converse"></a>
+                <p class="m-2 text-sm text-center">Converse</p>
+            </div>
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./herschel.png" alt="herschel"></a>
+                <p class="m-2 text-sm text-center">Herschel</p>
+            </div>
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./nike.png" alt="Nick"></a>
+                <p class="m-2 text-sm text-center">Nike</p>
+            </div>
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./chrysolite.png" alt="chrysolite"></a>
+                <p class="m-2 text-sm text-center">Chrysolite</p>
+            </div>
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./adidas.png" alt="adidas"></a>
+                <p class="m-2 text-sm text-center">Adidas</p>
+            </div>
+
+            <div
+                class="hidden bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  xl:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] xl:rounded-sm">
+            </div>
+
+
+            <div
+                class="hidden bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  xl:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] xl:rounded-sm">
+            </div>
+
+
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./defacto.png" alt="defacto"></a>
+                <p class="m-2 text-sm text-center">Defacto</p>
+            </div>
+
+            <div
+                class="bg-white h-fit w-[100px] md:w-[150px] flex-shrink-0 snap-start  md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                <a href="#"><img class="rounded-t-lg" src="./jansport.png" alt="jansport"></a>
+                <p class="m-2 text-sm text-center">Jansport</p>
+            </div>
+
+        </div>
+    </div>
+
+
+     <!--ADIDAS PAGES FOR ONLY MOBILE-->
+    <!--ADIDAS PAGE-->
+    <div class="h-fit  bg-white w-full mb-2 md:hidden">
+
+        <!--ADIDAS FIRST HEADER-->
+        <div class="bg-black text-white flex justify-between px-4 items-center h-[35px] w-full">
+            <h2 class="font-semibold text-sm">Adidas Official Store</h2>
+
+            <a class="font-semibold text-sm" href="#">See All <span class="text-lg xl:text-xl">»</span></a>
+        </div>
+
+
+        <!--PICTURES OF BEST OF CATEGORIES-->
+        <div class="slider h-fit m-1 flex overflow-x-auto  snap-x snap-mandatory space-x-1 p-2">
+            <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(2).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Levato - Women..</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 35,005</p>
+            </div>
+           
+           <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(1).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Grand Court TD Lif...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 72,400</p>
+            </div>
+           
+
+             <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(3).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Galaxy 6 Shows W...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 67,100</p>
+            </div>
+
+<div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(4).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS GildeEase - Women...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 27,985</p>
+            </div>
+
+            <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(5).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Ultimashow Shoes...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 65,500</p>
+            </div>
+
+
+        
+            <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(6).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Run 60s 3.0 Lifest...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 73,200</p>
+            </div>
+
+  <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(7).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Originals Adilette W...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 28,360</p>
+            </div>
+
+             <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(8).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS Galaxy 6 Shoes W..</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 67,100</p>
+            </div>
+
+
+             <div class="bg-white h-fit w-[200px] flex-shrink-0 snap-start rounded-lg">
+                <a href="#"><img class="rounded-t-lg" src="./sne(9).jpg" alt="Adidas shoe"></a>
+                <p class="m-2 text-sm">ADIDAS BreezeWalk W WO...</p>
+                <p class="m-2 text-sm font-semibold text-orange-500">₦ 31,365</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--BACK TO TOP BUTTON FOR DESKTOP-->
+    <div class="hidden md:flex md:justify-end">
+        <div class="h-[50px] w-[50px] rounded-full border-[0.95px] border-orange-500 m-5 py-2">
+            <a class="flex justify-center text-2xl py-1" href="./index.html"><i class="bi bi-caret-up-fill"></i></a>
+        </div>
+    </div>
+
+    <!--BACK TO TOP FOR MOBILE-->
+    <div class="bg-gray-500 text-white md:hidden">
+        <a class="flex  flex-col  items-center" href="./index.html">
+            <i class="bi bi-caret-up-fill"></i>
+            <p class="text-xs">BACK TO TOP</p>
+        </a>
+    </div>
+    <!--FOOTER PAGE-->
+    <!-- FOOTER -->
+    <div class="h-fit w-full bg-black flex flex-col pt-14">
+        <div
+            class="bg-transparent sm:px-4 justify-between lg:px-10 pb-8 sm:flex-wrap lg:flex-nowrap flex flex-col shrink-0 grow sm:flex sm:flex-row h-full w-full gap-2">
+            <div class="text-gray-50 w-full sm:w-fit lg:w-1/5 h-fit flex flex-col p-2 space-y-2">
+                <img src="/logo_main-removebg-preview.png" class="h-[6rem] w-[5rem] m-auto">
+                <p class="text-lg font-semibold text-gray-300">Subscribe</p>
+                <p class="text-gray-300">Get 10% off your first order</p>
+                <form class="flex">
+                    <input type="email" placeholder="Enter your email"
+                        class="w-3/4 sm:w-4/5 bg-transparent p-2 h-[50px] border border-gray-100 border-r-0 placeholder:text-sm text-lg outline-0 ">
+                    <button class="w-1/4 border border-gray-100 border-l-0 p-2 h-[50px]"><i
+                            class="bi bi-send text-xl m-auto"></i></button>
+                </form>
+            </div>
+
+            <!--CALL OR SUPPOURT PAGE-->
+            <div class="text-gray-50 w-full sm:w-1/2 lg:w-1/5 space-y-2 h-fit p-2 pt-8 sm:pt-4">
+                <h1 class="text-lg font-bold text-gray-300">Support</h1>
+                <p href="#" class="hover:text-blue-500 w-fit text-gray-300">Odume Obosi, Anambra state, Nigeria.</p>
+                <p href="#" class="hover:text-blue-500 w-fit text-gray-300">stanleychiemelie72@gmail.com</p>
+                <p href="#" class="hover:text-blue-500 w-fit text-gray-300">okolichimaobi@gmail.com</p>
+                <p href="#" class="hover:text-blue-500 w-fit text-gray-300">+234 916 184 5818</p>
+                <p href="#" class="hover:text-blue-500 w-fit text-gray-300">+234 704 971 3444</p>
+            </div>
+
+            <!--ACCOUNT PAGE-->
+            <div class="text-gray-50 w-full sm:w-1/2 lg:w-1/5 flex flex-col space-y-2 h-fit p-2 pt-8">
+                <h1 class="text-lg font-bold text-gray-300">Account</h1>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">My account</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">Login / Register</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">Cart</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">Wishlist</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">My Shop</a>
+            </div>
+
+            <!--PRIVACY-->
+            <div class="text-gray-50 w-full sm:w-1/3 lg:w-1/5 flex flex-col pt-8 p-2 space-y-2">
+                <h1 class="text-lg font-bold text-gray-300">Quick Link</h1>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">Terms Of Use</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">FAQ</a>
+                <a href="#" class="hover:text-blue-500 w-fit text-gray-300">Contact</a>
+            </div>
+
+
+            <!--DOWNLOAD PAGE-->
+            <div
+                class="text-gray-300 w-full lg:w-fit flex flex-col pt-8 p-2 space-y-2 justify-center align-center items-center">
+                <h1 class="text-lg font-bold">Download App</h1>
+                <p>Save $3 for App New User only</p>
+                <div>
+                    <!-- APP DOWNLOAD-->
+                    <div class="flex flex-row gap-2">
+                        <!--QR CODE-->
+                        <div>
+                            <a href="#"><i class="bi bi-qr-code text-8xl hover:text-blue-500"></i></a>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <div class="flex flex-row gap-2 whitespace-nowrap">
+                                <i class="bi bi-google-play text-3xl"></i>
+                                <div class="flex flex-col hover:text-blue-500">
+                                    <a href="#" class="text-[0.7rem]">Get it on</a>
+                                    <a href="#" class="text-lg">Google Play</a>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-row gap-2 whitespace-nowrap">
+                                <i class="bi bi-apple text-3xl"></i>
+                                <div class="flex flex-col hover:text-blue-500">
+                                    <a href="#" class="text-[0.7rem]">Download on the</a>
+                                    <a href="#" class="text-lg">Google Play</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--COPYRIGHT PAGE-->
+        <div class="flex justify-center items-center w-full border-t-[1px] border-gray-500 pt-8">
+            <p class=" text-gray-50 w-full text-center text-[0.7rem] md:text-sm"><i
+                    class="bi bi-c-circle text-base my-auto"></i> Copyright S.J shopping. All rights reserved</p>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
